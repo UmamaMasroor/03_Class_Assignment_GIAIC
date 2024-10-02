@@ -141,3 +141,8 @@ padding: 15%;
     display: flex;
     width: 50%;
   }
+  .footer{
+    background-color: rgb(227, 134, 134);
+    color: black;
+    display: flex;
+  }
