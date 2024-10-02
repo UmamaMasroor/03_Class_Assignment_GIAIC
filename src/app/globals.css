@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+hero section starts */
+.container{
+    background-color: rgb(249, 227, 207);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.info-div{
+padding: 15%;
+}
+.info-div span {
+    background-color:rgb(197, 74, 74) ;
+    color: white;
+    padding: 6px;
+}
+.info-div button{
+    background-color: rgb(197, 74, 74);
+    color: white;
+    width: 40%;
+    height: 10%;
+    margin: 5%;
+    border-radius: 15px;
+}
+.info-div button:hover{
+    background-color: rgb(225, 194, 154);
+    color: black;
+}
+.info-div h1{
+    font-size: 30px;
+    font-weight:600;
+
+}
+.image-div{
+    align-items: end;
+}
+
+/* hero section ends */
