@@ -2,11 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* header start */
+.header{
+    background-color: rgb(227, 134, 134);
+    color: black;
+    font-weight: 600;
+    width: 100%;
+  
+}
+.header-links{
+    display: flex;
+    /* padding: 15px; */
+    justify-content: center;
+
+}
+.header-links li{
+    padding: 10px;
+}
+/* header end */
+
 /* 
 hero section starts */
 .container{
     background-color: rgb(249, 227, 207);
-    width: 100vw;
+    
     height: 100vh;
     display: flex;
 }
@@ -40,3 +59,85 @@ padding: 15%;
 }
 
 /* hero section ends */
+
+/* contact start */
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+.header-contact {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    background-color:  rgb(197, 74, 74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: rgb(225, 194, 154); 
+    color: black;
+  }
+  
+
+  @media (max-width: 600px) {
+    .header {
+      font-size: 1.5rem; /* Smaller header on mobile */
+    }
+  
+    .input,
+    .textarea {
+      padding: 8px; /* Smaller padding on mobile */
+    }
+  
+    .button {
+      width: 100%; /* Full-width button on mobile */
+    }
+  }
+  
+  /* about page starts */
+  .container_about{
+    display: flex;
+    width: 50%;
+  }
